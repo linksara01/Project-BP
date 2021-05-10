@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	background: #111111;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px;
+	z-index: 1000;
+}
+
+header .logo
+{
+	position: relative;
+	margin: 22px 10px;
+	height: 100px;
+}
+
+
+.content{
+	position: relative;
+	text-align: center;
+	color: White;
+	top: 20px;
+}
+
+.carousel
+{
+	transform: translateY(-100px);
+	height: 700px;
+	perspective: 600px;
+}
+
+.carousel .carousel-item
+{
+	width: 400px;
+}
+
+.carousel .carousel-item img
+{
+	width: 100%;
+}
+
+.carousel .carousel-item h3
+{
+	margin: -5px 0 0;
+	padding: 0;
+	background: #fff;
+	color: #000;
+	box-sizing: border-box;
+	padding: 10px 5px;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+	
