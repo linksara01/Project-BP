@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Blackpink</title>
+    <link rel="shortcut icon" type="image/png" href="images/BPLOGO.jpg"/>
+    <link rel="stylesheet" href="css/style7.css">   
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="index.html" class="logo"><img src="images/bplogo.png"></a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+        <h2>HELLO WE ARE <br> <span>BLACKPINK</span></h2>
+        <p>
+
+        </p>
+        <a href="https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%81%E0%B9%8C" target="_blank" >Know More</a>
+        </div>
+        <ul class="sci">
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="member.html">Member</a></li>
+			<li><a href="album.html">Album</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>    
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
